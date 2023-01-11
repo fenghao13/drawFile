@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T03:36:27.286Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.8.3" etag="QkWWw9Ytsu7VAjLpW0vu" type="github"><diagram id="ZN1r8NqI-GsXLhv7NxjI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-11T05:08:51.727Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.8.3" etag="hlOMI7U_OswcSe1VvqT_" type="github">
+  <diagram id="d-SCuZ-86WkHKjseuBXC" name="第 1 页">
+    <mxGraphModel dx="1083" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-1" value="福店app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-2" target="VR-cIzIlKegaOIFRFkkW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VR-cIzIlKegaOIFRFkkW-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="381" y="210" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="210" />
+              <mxPoint x="450" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-2" value="nginx&amp;nbsp; 16G&lt;br&gt;单体应用&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-3" value="app接口&lt;br&gt;tomcat1&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-4" value="app福豆商品列表接口&lt;br&gt;tomcat2&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-5" value="app商品详情接口&lt;br&gt;Tomcat3&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-13" value="福店app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-17" target="VR-cIzIlKegaOIFRFkkW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VR-cIzIlKegaOIFRFkkW-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VR-cIzIlKegaOIFRFkkW-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391" y="480" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="480" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-17" value="nginx 32G&lt;br&gt;负载均衡三台应用&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-18" value="app接口&lt;br&gt;tomcat1&lt;br&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-19" value="app福豆商品列表接口+&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;tomcat2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-20" value="app商品详情接口&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Tomcat3&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;172.16.101.70" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-21" value="" style="shape=cross;whiteSpace=wrap;html=1;direction=west;rotation=45;size=0;" vertex="1" parent="1">
+          <mxGeometry x="621.46" y="381.46" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-22" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;2+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="656.46" y="380" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-23" value="" style="shape=cross;whiteSpace=wrap;html=1;direction=west;rotation=45;size=0;" vertex="1" parent="1">
+          <mxGeometry x="620.2842712474619" y="463.2842712474619" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-24" value="" style="shape=cross;whiteSpace=wrap;html=1;direction=west;rotation=45;size=0;" vertex="1" parent="1">
+          <mxGeometry x="622.2842712474619" y="541.2842712474619" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-25" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;2+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="457" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VR-cIzIlKegaOIFRFkkW-26" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;2+&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="657" y="536" width="60" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
