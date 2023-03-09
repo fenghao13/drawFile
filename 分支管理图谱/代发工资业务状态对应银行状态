@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T09:43:09.340Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="b7eieMqeAO_tUjDODHUe" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T09:45:37.441Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eu6WVaBXz18gyvTT2J_R" version="21.0.4" type="github">
   <diagram name="第 1 页" id="gL8qrO-WvRrherR9LVg2">
     <mxGraphModel dx="1923" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-3" value="无状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qXtX5Aar2U2-dvTyCsfv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-4" target="qXtX5Aar2U2-dvTyCsfv-5">
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-23" value="需2个U盾" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-4" target="qXtX5Aar2U2-dvTyCsfv-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-4">
@@ -33,6 +33,11 @@
               <mxPoint x="650" y="615" />
               <mxPoint x="650" y="880" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-55" value="需1个U盾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qXtX5Aar2U2-dvTyCsfv-54">
+          <mxGeometry x="-0.488" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-4" value="00待提交&lt;br&gt;01已提交&lt;br&gt;03待银行处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -70,7 +75,7 @@
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-10" value="0-工资文件受理中 &lt;br&gt;1工资文件上传失败 &lt;br&gt;2工资文件校验失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qXtX5Aar2U2-dvTyCsfv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-11" target="qXtX5Aar2U2-dvTyCsfv-16">
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-17" value="需2个U盾" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-11" target="qXtX5Aar2U2-dvTyCsfv-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-11">
@@ -80,6 +85,11 @@
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-11" target="qXtX5Aar2U2-dvTyCsfv-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-56" value="需1个U盾" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qXtX5Aar2U2-dvTyCsfv-53">
+          <mxGeometry x="-0.4145" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-11" value="3-待发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="585" width="120" height="60" as="geometry" />
@@ -149,7 +159,7 @@
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-43" value="需2个U盾" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-39" target="qXtX5Aar2U2-dvTyCsfv-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qXtX5Aar2U2-dvTyCsfv-52" value="仅一个U盾" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-39" target="qXtX5Aar2U2-dvTyCsfv-41">
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-52" value="需1个U盾" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-39" target="qXtX5Aar2U2-dvTyCsfv-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-39" value="待发放列表：发放按钮-U盾提交" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
