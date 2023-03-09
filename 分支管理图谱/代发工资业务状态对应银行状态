@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T11:42:30.982Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VEdg4NUBo2h0wR5gIKDf" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T12:58:20.603Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="un3y_jYgw3KsDVOoqmf8" version="21.0.4" type="github">
   <diagram name="第 1 页" id="gL8qrO-WvRrherR9LVg2">
     <mxGraphModel dx="1096" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qXtX5Aar2U2-dvTyCsfv-1" value="工资批次业务状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
-          <mxGeometry x="230" y="440" width="120" height="20" as="geometry" />
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-1" value="工资批次业务状态流转" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=none;" edge="1" parent="1" source="qXtX5Aar2U2-dvTyCsfv-10">
           <mxGeometry relative="1" as="geometry">
@@ -108,7 +108,10 @@
           <mxGeometry x="40" y="765" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qXtX5Aar2U2-dvTyCsfv-90" value="银行处理状态&lt;br&gt;00待提交&lt;br&gt;01已提交&lt;br&gt;02待授权&lt;br&gt;03待银行处理&lt;br&gt;04处理成功&lt;br&gt;05处理失败&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#da3445;" vertex="1" parent="1">
-          <mxGeometry x="600" y="450" width="120" height="120" as="geometry" />
+          <mxGeometry x="520" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qXtX5Aar2U2-dvTyCsfv-92" value="业务状态（batch表）&lt;br&gt;0-工资文件受理中&lt;br&gt;&amp;nbsp;1工资文件上传失败&lt;br&gt;&amp;nbsp;2工资文件校验失败 3-待发放 &lt;br&gt;4待授权 &lt;br&gt;5已发放 &lt;br&gt;6部分发放失败" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#46932a;" vertex="1" parent="1">
+          <mxGeometry x="25" y="440" width="120" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
